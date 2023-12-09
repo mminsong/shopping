@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Clothe Home</title>
+    <link rel="stylesheet" href="/main/home.css">
+    <script src="https://kit.fontawesome.com/7f0b80e413.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="box">
+    <div class="nav">
+        <div class="logo">Clothes</div>
+        <div class="search">
+            <select class="option">
+                <option value="none">선택</option>
+                <option>전체</option>
+                <option>쇼핑몰</option>
+            </select>
+            <input class="search_sub" type="text" placeholder="검색어를 입력해주세요.">
+            <input class="search_button" type="button" value="검색">
+
+        </div>
+        <div class="side">
+            <div class="mypage"><i class="fa-solid fa-user"></i></div>
+            <div class="cart"><i class="fa-solid fa-cart-shopping"></i></div>
+            <a class="login" th:href="@{/user/login}">로그인</a>
+            <a class="join" th:href="@{/user/join}">회원가입</a>
+        </div>
+
+    </div>
+    <div class="main">
+        <div class="main_nav">
+            <div class="home">
+                <div class="home_nav">
+                    <div class="nav_home">홈</div>
+                    <div class="nav_best">베스트셀러</div>
+                </div>
+                <div class="home_img">
+                    <img src="/picture/p_1.jpg" width="1000" height="500">
+                </div>
+                <div class="home_nav">
+                    <div class="category">
+                        <div class="cat_logo">
+                            <i class="fa-solid fa-bars"></i>
+                            <div class="logo_text">카테고리</div>
+                        </div>
+                        <div class="cat_logo">
+                            <i class="fa-solid fa-shirt"></i>
+                            <div class="logo_text">상의</div>
+                        </div>
+                        <div class="cat_logo">
+                            <div class="logo_text">하의</div>
+                        </div>
+                        <div class="cat_logo">
+                            <div class="logo_text">아우터</div>
+                        </div>
+                        <div class="cat_logo">
+                            <i class="fa-solid fa-person-dress"></i>
+                            <div class="logo_text">스커트</div>
+                        </div>
+                        <div class="cat_logo">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <div class="logo_text">가방</div>
+                        </div>
+                        <div class="cat_logo">
+                            <i class="fa-solid fa-shoe-prints"></i>
+                            <div class="logo_text">신발</div>
+                        </div>
+                        <div class="cat_logo">
+                            <i class="fa-solid fa-glasses"></i>
+                            <div class="logo_text">안경</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

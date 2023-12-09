@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+input{
+    background-color: unset;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 62rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15rem;
+}
+.nav{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    width: 20%;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.search{
+    width: 55%;
+    height: 2rem;
+    display: flex;
+}
+.option{
+    margin-right: 0.5rem;
+    width: 6rem;
+}
+.search_sub{
+    width: 23rem;
+}
+.search_button{
+    width: 3rem;
+    cursor: pointer;
+}
+.side{
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.mypage,
+.cart,
+.login{
+    margin-right: 1rem;
+}
+.mypage,
+.cart{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.login:hover,
+.join:hover{
+    font-weight: bold;
+}
+.login,
+.join{
+    font-size: 1.2rem;
+}
+.main{
+    width: 100%;
+}
+.home_nav{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.nav_home,
+.nav_best{
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+.nav_home:hover,
+.nav_best:hover{
+    font-weight: bold;
+}
+.category{
+    display: flex;
+    height: 6rem;
+    font-size: 2rem;
+    
+}
+.cat_logo{
+    width: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+
+    cursor: pointer;
+    margin: 0.5rem;
+    border: 0.0625rem solid #d2d0d0;
+    border-radius: 0.5rem;
+}
+.logo_text{
+    padding-top: 0.2rem;
+    font-size: 0.8rem;
+}
