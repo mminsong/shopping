@@ -8,9 +8,12 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 @RequestMapping(value="main")
 public class MainController {
-    @GetMapping(value="home")
-    public ModelAndView getHome(ModelAndView modelAndView){
+    @GetMapping(value = "home")
+    public ModelAndView getHome(ModelAndView modelAndView) {
         modelAndView.setViewName("/main/home");
         return modelAndView;
     }
+
+
+
 }

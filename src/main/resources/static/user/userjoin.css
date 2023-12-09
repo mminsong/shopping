@@ -13,7 +13,7 @@ input{
 }
 .box{
     width: 25rem;
-    height: 20rem;
+    height: 30rem;
     display: flex;
     flex-direction: column;
     top: 50%;
@@ -33,7 +33,7 @@ input{
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
-.login_text{
+.join_text{
     margin-left: 1rem;
 }
 .main{
@@ -43,7 +43,12 @@ input{
     align-items: center;
 }
 .id,
-.number{
+.passwd,
+.passwd_ch,
+.name,
+.number,
+.birth,
+.address{
     width: 18rem;
     margin-bottom: 0.5rem;
     height: 2rem;
@@ -51,15 +56,20 @@ input{
     border: 0.0625rem solid #d2d0d0;
     border-radius: 0.5rem;
 }
-.findpw{
+.join{
     width: 18.8rem;
     height: 2.3rem;
     border: 0.0625rem solid #d2d0d0;
     border-radius: 0.5rem;
 }
 .id:hover,
+.passwd:hover,
+.passwd_ch:hover,
+.name:hover,
 .number:hover,
-.findpw:hover{
+.birth:hover,
+.address:hover,
+.join:hover{
     border: 0.2rem solid #d2d0d0;
     font-weight: bold;
 }
@@ -67,17 +77,18 @@ input{
 .sub{
     margin-top: 1.5rem;
 }
+.findpw,
 .findid{
     padding-right: 1rem;
     padding-left: 1rem;
     border-right: 0.0625rem solid #d2d0d0;
 }
-.join{
+.login{
     padding-right: 1rem;
     padding-left: 1rem;
 }
 .findpw:hover,
 .findid:hover,
-.join:hover{
+.login:hover{
     font-weight: bold;
 }

@@ -2,26 +2,31 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>로그인</title>
-    <link rel="stylesheet" href="/user/login.css">
+    <title>개인회원</title>
+    <link rel="stylesheet" href="/user/userjoin.css">
     <script src="https://kit.fontawesome.com/7f0b80e413.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <div class="box">
     <div class="title">
         <div class="icon"><i class="fa-solid fa-user"></i></div>
-        <a class="login_text" th:href="@{/main/home}">Clothes</a>
+        <a class="join_text" th:href="@{/main/home}">Clothes</a>
     </div>
 
     <form class="main">
         <input class="id" type="text" placeholder="아이디(이메일)">
         <input class="passwd" type="password" placeholder="비밀번호">
-        <input class="login" type="button" value="로그인">
+        <input class="passwd_ch" type="password" placeholder="비밀번호 확인">
+        <input class="name" type="text" placeholder="이름">
+        <input class="number" type="text" placeholder="휴대폰 번호">
+        <input class="birth" type="date" placeholder="생년월일">
+        <input class="address" type="text" placeholder="주소">
+        <input class="join" type="button" value="회원가입">
     </form>
     <div class="sub">
         <a class="findpw" th:href="@{/user/findpw}">비밀번호찾기</a>
         <a class="findid" th:href="@{/user/findid}">아이디찾기</a>
-        <a class="join" th:href="@{/user/join}">회원가입</a>
+        <a class="login" th:href="@{/user/login}">로그인</a>
     </div>
 </div>
 </body>

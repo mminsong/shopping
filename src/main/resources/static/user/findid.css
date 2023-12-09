@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+input{
+    background-color: unset;
+    border:none;
+}
+.box{
+    width: 25rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.login_text{
+    margin-left: 1rem;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.passwd,
+.number{
+    width: 18rem;
+    margin-bottom: 0.5rem;
+    height: 2rem;
+    padding-left: 0.5rem;
+    border: 0.0625rem solid #d2d0d0;
+    border-radius: 0.5rem;
+}
+.findid{
+    width: 18.8rem;
+    height: 2.3rem;
+    border: 0.0625rem solid #d2d0d0;
+    border-radius: 0.5rem;
+}
+.passwd:hover,
+.number:hover,
+.findid:hover{
+    border: 0.2rem solid #d2d0d0;
+    font-weight: bold;
+}
+
+.sub{
+    margin-top: 1.5rem;
+}
+.findpw{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border-right: 0.0625rem solid #d2d0d0;
+}
+.join{
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.findpw:hover,
+.join:hover{
+    font-weight: bold;
+}
